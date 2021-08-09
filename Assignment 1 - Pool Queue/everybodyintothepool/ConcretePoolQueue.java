@@ -1,0 +1,274 @@
+package everybodyintothepool;
+
+
+import BasicIO.*;               
+import java.util.LinkedList;
+import java.util.List;
+
+
+/** This class is an implementation of the PoolQueue interface.
+  *
+  * @author <Haaris Yahya>
+  * @version 1.0 (<05/23/2021>)                                                        */
+
+public class ConcretePoolQueue<E> implements PoolQueue<E>{
+  
+  private LinkedList<LinkedList<E>> teams = new LinkedList<LinkedList<E>>();
+  private LinkedList<E> players = new LinkedList<E>();//Creating a new linked list for the players
+  
+  /*The add methods basically allow us to add players into the team or queue, addSingle adds one, 
+   * addPair adds two and so on. */
+  
+  @SafeVarargs //Annotation that supresses heap pollution warnings
+  public final void add(E... item){
+  }
+  
+  public void addSingle(E item){
+    players.add(item);
+    teams.add(players);
+  }
+  
+  public void addPair(E first, E second){
+    LinkedList<E> players = new LinkedList<E>();
+    players.add(first);
+    players.add(second);
+    teams.add(players);
+    
+  }
+  /* The Big-O for this method is O(n) as you are just adding into a linked list, complexity will increase
+   * as size increases. */
+  public void addTriple(E first, E second, E third){
+    LinkedList<E> players = new LinkedList<E>();
+    players.add(first);
+    players.add(second);
+    players.add(third);
+    teams.add(players);
+  }
+  
+  public void addQuartet(E first, E second, E third, E fourth){
+    LinkedList<E> players = new LinkedList<E>();
+    players.add(first);
+    players.add(second);
+    players.add(third);
+    players.add(fourth);
+    teams.add(players);
+  }
+  /* The remove methods are responsible for removing players in the queue. We use two methods for each 
+   * remove function. One is to catch an exception and the second using a param int z is responsible 
+   * for removing the player. You can also see that the methods are called recursively and several
+   * else statements are used while calling other methods. */
+  
+  
+  public E removeSingle(){
+    E value = removeSingle(0);
+    if (value == null)
+      throw new InsufficientElementsException();
+    return value;
+  }
+  
+  private E removeSingle(int z){
+    for (int i = z; i < teams.size();i++)
+      if(teams.get(i).size() == 1){
+      E value = teams.get(i).get(0);
+      teams.remove(i);
+      return value;
+    }
+    return null;
+  }
+  
+  public List<E> removePair(){
+    List<E> value = removePair(0);
+    if(value == null)
+      throw new InsufficientElementsException();
+    return value;
+  }
+  public List<E> removePair(int z){
+    for (int i = z; i<teams.size(); i++)
+      if (teams.get(i).size() == 2)
+    {
+      List<E> value = teams.get(i);
+      teams.remove(i);
+      return value;
+    }
+    else
+      if(teams.get(i).size() == 1)
+    {
+      E single = removeSingle(i+1);
+      if (single != null)
+      {
+        List<E> value = teams.get(i);
+        teams.remove(i);
+        value.add(single);
+        return value;
+      }
+    }
+    return null;
+  }
+  
+  public List<E> removeTriple(){
+    List<E> value = removeTriple(0);
+    if(value == null)
+      throw new InsufficientElementsException();
+    return value;
+  }
+  /* The Big-O complexity for this function is O(n^3). This is rather complex because we are using
+   * a nested loop as there are two loops within the first loop at the top. */
+  public List<E> removeTriple(int z){
+    for (int i = z; i<teams.size(); i++)
+      if (teams.get(i).size() == 3)
+    {
+      List<E> value = teams.get(i);
+      teams.remove(i);
+      return value;
+    }
+    else
+      if(teams.get(i).size() == 2)
+    {
+      E single = removeSingle(i+1);
+      if (single != null)
+      {
+        List<E> value = teams.get(i);
+        teams.remove(i);
+        value.add(single);
+        return value;
+      }
+    }
+    else
+      if(teams.get(i).size() == 2)
+    {
+      List<E> pair = removePair(i+1);
+      if (pair != null)
+      {
+        List<E> value = teams.get(i);
+        teams.remove(i);
+        value.addAll(pair);
+        return value;
+      }
+    }
+    return null;
+  }
+  public List<E> removeQuartet(){
+    List<E> value = removeQuartet(0);
+    if(value == null)
+      throw new InsufficientElementsException();
+    return value;
+  }
+  
+  private List<E> removeQuartet(int d){
+    for (int i = d; i<teams.size(); i++)
+      if (teams.get(i).size() == 4)
+    {
+      List<E> value = teams.get(i);
+      teams.remove(i);
+      return value;
+    }
+    else
+      if(teams.get(i).size() == 3)
+    {
+      E single = removeSingle(i+1);
+      if (single != null)
+      {
+        List<E> value = teams.get(i);
+        teams.remove(i);
+        value.add(single);
+        return value;
+      }
+    }
+    else
+      if(teams.get(i).size() == 2)
+    {
+      List<E> pair = removePair(i+1);
+      if (pair != null)
+      {
+        List<E> value = teams.get(i);
+        teams.remove(i);
+        value.addAll(pair);
+        return value;
+      }
+    }
+    else 
+      if (teams.get(i).size() == 1){
+      List<E> triple = removeTriple(i+1);
+      if(triple != null){
+        List<E> value = teams.get(i);
+        teams.remove(i);
+        value.addAll(triple);
+        return value;
+      }
+    }
+    return null;
+  }
+  /* These methods are there to only provide information and confirm whether a group or team has a pair
+   * of players, one players, a trio or a quartet. It only answers in true or false as these methods
+   * are of type boolean. */
+  public boolean hasSingle(){
+    return hasSingle(0);
+  }
+  
+  private boolean hasSingle(int z){
+    for (int i = z; i < teams.size(); i++)
+      if (teams.get(i).size() == 1)
+      return true;
+    return false;
+  }
+  
+  public boolean hasPair(){
+    return hasPair(0);
+  }
+  private boolean hasPair(int z){
+    for (int i = z; i < teams.size(); ++i)
+      if (teams.get(i).size() == 2)
+      return true;
+    else
+      if (teams.get(i).size() == 1 && hasSingle(i+1)) // in the case that the size is 2
+      return true;
+    return false;
+  }
+  
+  public boolean hasTriple(){
+    return hasTriple(0);
+  }
+  /* The Big-O complexity of this function is O(n^3) because we have a main loop at the top
+   * and two other loops nested inside of it.*/
+  private boolean hasTriple(int z){
+    for (int i = z; i < teams.size(); ++i)
+      if (teams.get(i).size() == 3)
+      return true;
+    else
+      if (teams.get(i).size() == 2 && hasSingle(i+1)) // in the case that the size is 3
+      return true;
+    else 
+      if (teams.get(i).size() == 1 && hasPair(i+1)) // in the case that the size is 3
+      return true;
+    return false;
+  }
+  
+  public boolean hasQuartet(){
+    return hasQuartet(0);
+  }
+  private boolean hasQuartet(int z){
+    for (int i = z; i < teams.size(); ++i)
+      if (teams.get(i).size() == 4)
+      return true;
+    else
+      if (teams.get(i).size() == 3 && hasSingle(i+1)) // in the case that the size is 4
+      return true;
+    else 
+      if (teams.get(i).size() == 2 && hasPair(i+1)) // in the case that the size is 4
+      return true;
+    else 
+      if (teams.get(i).size() == 1 && hasTriple(i+1)) // in the case that the size is 4
+      return true;
+    return false;
+  }
+  /* Finally, this method simply returns the number of players within the queue. */
+  public int count(){
+    int z = 0;
+    for(int a=0;a<teams.size(); a++){
+      z = teams.get(a).size()+z;
+    }
+    return z;
+  }
+  // The main method
+  public static void main ( String[] args ) { ConcretePoolQueue c = new ConcretePoolQueue(); }
+}
