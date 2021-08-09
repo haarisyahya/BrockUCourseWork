@@ -1,0 +1,83 @@
+15
+
+1	1
+m
+
+3	1
+ppp
+
+4	2
+RRRR
+RRRR
+
+4	3
+dddd
+dddd
+dddd
+
+4	6
+EEEE
+EEEE
+EEEE
+EEEE
+EEEE
+EEEE
+
+5	2
+EEEEE
+EEEEE
+
+5	6
+mmmmm
+mmmmm
+mmmmm
+mmmmm
+mmmmm
+mmmmm
+
+6	2
+rrrrrr
+rrrrrr
+
+6	5
+LLLLLL
+LLLLLL
+LLLLLL
+LLLLLL
+LLLLLL
+
+6	7
+RRRRRR
+RRRRRR
+RRRRRR
+RRRRRR
+RRRRRR
+RRRRRR
+RRRRRR
+
+7	5
+sssssss
+sssssss
+sssssss
+sssssss
+sssssss
+
+8	1
+eeeeeeee
+
+8	6
+bbbbbbbb
+bbbbbbbb
+bbbbbbbb
+bbbbbbbb
+bbbbbbbb
+bbbbbbbb
+
+10	2
+NNNNNNNNNN
+NNNNNNNNNN
+
+10	2
+OOOOOOOOOO
+OOOOOOOOOO
+

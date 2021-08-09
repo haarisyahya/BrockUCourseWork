@@ -1,0 +1,141 @@
+24
+
+1	5
+z
+z
+z
+z
+z
+
+1	6
+j
+j
+j
+j
+j
+j
+
+1	7
+p
+p
+p
+p
+p
+p
+p
+
+2	4
+jj
+jj
+jj
+jj
+
+3	5
+UUU
+UUU
+UUU
+UUU
+UUU
+
+4	2
+JJJJ
+JJJJ
+
+4	2
+WWWW
+WWWW
+
+6	1
+QQQQQQ
+
+6	4
+dddddd
+dddddd
+dddddd
+dddddd
+
+6	6
+zzzzzz
+zzzzzz
+zzzzzz
+zzzzzz
+zzzzzz
+zzzzzz
+
+6	7
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+XXXXXX
+
+7	3
+hhhhhhh
+hhhhhhh
+hhhhhhh
+
+7	3
+lllllll
+lllllll
+lllllll
+
+7	7
+HHHHHHH
+HHHHHHH
+HHHHHHH
+HHHHHHH
+HHHHHHH
+HHHHHHH
+HHHHHHH
+
+8	6
+DDDDDDDD
+DDDDDDDD
+DDDDDDDD
+DDDDDDDD
+DDDDDDDD
+DDDDDDDD
+
+8	7
+zzzzzzzz
+zzzzzzzz
+zzzzzzzz
+zzzzzzzz
+zzzzzzzz
+zzzzzzzz
+zzzzzzzz
+
+9	1
+KKKKKKKKK
+
+9	1
+OOOOOOOOO
+
+9	1
+wwwwwwwww
+
+9	3
+vvvvvvvvv
+vvvvvvvvv
+vvvvvvvvv
+
+9	4
+ttttttttt
+ttttttttt
+ttttttttt
+ttttttttt
+
+10	1
+aaaaaaaaaa
+
+10	2
+KKKKKKKKKK
+KKKKKKKKKK
+
+10	3
+ssssssssss
+ssssssssss
+ssssssssss
+

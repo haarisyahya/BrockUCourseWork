@@ -1,0 +1,352 @@
+57
+
+1	2
+V
+V
+
+1	7
+f
+f
+f
+f
+f
+f
+f
+
+2	1
+uu
+
+2	3
+EE
+EE
+EE
+
+2	3
+ww
+ww
+ww
+
+2	3
+zz
+zz
+zz
+
+2	4
+jj
+jj
+jj
+jj
+
+2	4
+ss
+ss
+ss
+ss
+
+2	6
+EE
+EE
+EE
+EE
+EE
+EE
+
+2	7
+KK
+KK
+KK
+KK
+KK
+KK
+KK
+
+2	7
+yy
+yy
+yy
+yy
+yy
+yy
+yy
+
+3	2
+RRR
+RRR
+
+3	3
+DDD
+DDD
+DDD
+
+3	3
+EEE
+EEE
+EEE
+
+3	3
+XXX
+XXX
+XXX
+
+3	4
+KKK
+KKK
+KKK
+KKK
+
+3	4
+mmm
+mmm
+mmm
+mmm
+
+3	4
+rrr
+rrr
+rrr
+rrr
+
+3	6
+MMM
+MMM
+MMM
+MMM
+MMM
+MMM
+
+3	6
+ggg
+ggg
+ggg
+ggg
+ggg
+ggg
+
+3	7
+ooo
+ooo
+ooo
+ooo
+ooo
+ooo
+ooo
+
+4	4
+BBBB
+BBBB
+BBBB
+BBBB
+
+4	4
+qqqq
+qqqq
+qqqq
+qqqq
+
+4	7
+LLLL
+LLLL
+LLLL
+LLLL
+LLLL
+LLLL
+LLLL
+
+4	7
+QQQQ
+QQQQ
+QQQQ
+QQQQ
+QQQQ
+QQQQ
+QQQQ
+
+5	1
+BBBBB
+
+5	1
+XXXXX
+
+5	4
+kkkkk
+kkkkk
+kkkkk
+kkkkk
+
+5	5
+hhhhh
+hhhhh
+hhhhh
+hhhhh
+hhhhh
+
+5	5
+ttttt
+ttttt
+ttttt
+ttttt
+ttttt
+
+5	7
+ppppp
+ppppp
+ppppp
+ppppp
+ppppp
+ppppp
+ppppp
+
+6	1
+XXXXXX
+
+6	3
+BBBBBB
+BBBBBB
+BBBBBB
+
+6	4
+rrrrrr
+rrrrrr
+rrrrrr
+rrrrrr
+
+6	7
+EEEEEE
+EEEEEE
+EEEEEE
+EEEEEE
+EEEEEE
+EEEEEE
+EEEEEE
+
+7	5
+OOOOOOO
+OOOOOOO
+OOOOOOO
+OOOOOOO
+OOOOOOO
+
+8	1
+OOOOOOOO
+
+8	2
+YYYYYYYY
+YYYYYYYY
+
+8	2
+kkkkkkkk
+kkkkkkkk
+
+8	3
+nnnnnnnn
+nnnnnnnn
+nnnnnnnn
+
+8	3
+tttttttt
+tttttttt
+tttttttt
+
+8	6
+dddddddd
+dddddddd
+dddddddd
+dddddddd
+dddddddd
+dddddddd
+
+8	6
+iiiiiiii
+iiiiiiii
+iiiiiiii
+iiiiiiii
+iiiiiiii
+iiiiiiii
+
+8	6
+nnnnnnnn
+nnnnnnnn
+nnnnnnnn
+nnnnnnnn
+nnnnnnnn
+nnnnnnnn
+
+9	1
+bbbbbbbbb
+
+9	2
+LLLLLLLLL
+LLLLLLLLL
+
+9	2
+PPPPPPPPP
+PPPPPPPPP
+
+9	3
+LLLLLLLLL
+LLLLLLLLL
+LLLLLLLLL
+
+9	4
+OOOOOOOOO
+OOOOOOOOO
+OOOOOOOOO
+OOOOOOOOO
+
+9	5
+xxxxxxxxx
+xxxxxxxxx
+xxxxxxxxx
+xxxxxxxxx
+xxxxxxxxx
+
+9	5
+yyyyyyyyy
+yyyyyyyyy
+yyyyyyyyy
+yyyyyyyyy
+yyyyyyyyy
+
+9	7
+BBBBBBBBB
+BBBBBBBBB
+BBBBBBBBB
+BBBBBBBBB
+BBBBBBBBB
+BBBBBBBBB
+BBBBBBBBB
+
+9	7
+eeeeeeeee
+eeeeeeeee
+eeeeeeeee
+eeeeeeeee
+eeeeeeeee
+eeeeeeeee
+eeeeeeeee
+
+10	2
+oooooooooo
+oooooooooo
+
+10	3
+EEEEEEEEEE
+EEEEEEEEEE
+EEEEEEEEEE
+
+10	6
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+
+10	6
+gggggggggg
+gggggggggg
+gggggggggg
+gggggggggg
+gggggggggg
+gggggggggg
+

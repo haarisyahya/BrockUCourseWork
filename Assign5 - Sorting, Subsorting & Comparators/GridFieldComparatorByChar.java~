@@ -1,0 +1,18 @@
+package Assign5;
+
+
+import java.util.Comparator;
+
+/** Trivial implementation of a simple comparator.
+  * Compares two chars and using the default String compareTo
+  */
+
+
+public class GridFieldComparatorByChar implements Comparator<GridField> {
+
+ @Override
+ public int compare(GridField arg0, GridField arg1) {
+  return ("" + arg0.getC()).compareTo("" + arg1.getC());
+ }
+ 
+}

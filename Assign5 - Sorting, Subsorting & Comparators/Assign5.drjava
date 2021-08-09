@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20190813-220051">
+  <project autorefresh="false" build="" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="GridField.java" package="Assign5" timestamp="09-Apr-2021 10:04:29">
+        <select from="445" to="445"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="GridFieldComparatorByHeight.java" package="Assign5" timestamp="08-Apr-2021 22:19:29">
+        <select from="445" to="445"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="GridFieldComparatorByChar.java" package="Assign5" timestamp="08-Apr-2021 22:19:29">
+        <select from="445" to="445"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Main.java" package="Assign5" timestamp="09-Apr-2021 09:49:14">
+        <select from="445" to="445"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="GridFieldComparatorByWidth.java" package="Assign5" timestamp="09-Apr-2021 10:03:57">
+        <select from="445" to="445"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

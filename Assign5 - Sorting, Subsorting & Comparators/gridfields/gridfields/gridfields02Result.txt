@@ -1,0 +1,310 @@
+56
+
+1	1
+C
+
+1	1
+W
+
+1	1
+t
+
+1	2
+k
+k
+
+1	3
+n
+n
+n
+
+1	3
+y
+y
+y
+
+1	5
+x
+x
+x
+x
+x
+
+1	7
+J
+J
+J
+J
+J
+J
+J
+
+2	1
+UU
+
+2	2
+AA
+AA
+
+2	2
+ss
+ss
+
+2	5
+FF
+FF
+FF
+FF
+FF
+
+2	5
+xx
+xx
+xx
+xx
+xx
+
+3	1
+jjj
+
+3	4
+ppp
+ppp
+ppp
+ppp
+
+3	6
+III
+III
+III
+III
+III
+III
+
+3	6
+UUU
+UUU
+UUU
+UUU
+UUU
+UUU
+
+3	6
+bbb
+bbb
+bbb
+bbb
+bbb
+bbb
+
+4	1
+JJJJ
+
+4	1
+XXXX
+
+4	1
+nnnn
+
+4	2
+hhhh
+hhhh
+
+4	3
+UUUU
+UUUU
+UUUU
+
+4	5
+CCCC
+CCCC
+CCCC
+CCCC
+CCCC
+
+4	5
+CCCC
+CCCC
+CCCC
+CCCC
+CCCC
+
+4	7
+GGGG
+GGGG
+GGGG
+GGGG
+GGGG
+GGGG
+GGGG
+
+5	1
+BBBBB
+
+5	1
+aaaaa
+
+5	2
+VVVVV
+VVVVV
+
+5	5
+JJJJJ
+JJJJJ
+JJJJJ
+JJJJJ
+JJJJJ
+
+5	5
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+
+5	6
+CCCCC
+CCCCC
+CCCCC
+CCCCC
+CCCCC
+CCCCC
+
+6	3
+iiiiii
+iiiiii
+iiiiii
+
+6	3
+xxxxxx
+xxxxxx
+xxxxxx
+
+6	4
+jjjjjj
+jjjjjj
+jjjjjj
+jjjjjj
+
+6	5
+vvvvvv
+vvvvvv
+vvvvvv
+vvvvvv
+vvvvvv
+
+6	6
+JJJJJJ
+JJJJJJ
+JJJJJJ
+JJJJJJ
+JJJJJJ
+JJJJJJ
+
+6	6
+WWWWWW
+WWWWWW
+WWWWWW
+WWWWWW
+WWWWWW
+WWWWWW
+
+7	1
+hhhhhhh
+
+7	2
+jjjjjjj
+jjjjjjj
+
+7	3
+mmmmmmm
+mmmmmmm
+mmmmmmm
+
+7	5
+YYYYYYY
+YYYYYYY
+YYYYYYY
+YYYYYYY
+YYYYYYY
+
+8	1
+iiiiiiii
+
+8	3
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+
+8	4
+WWWWWWWW
+WWWWWWWW
+WWWWWWWW
+WWWWWWWW
+
+8	4
+gggggggg
+gggggggg
+gggggggg
+gggggggg
+
+8	4
+ssssssss
+ssssssss
+ssssssss
+ssssssss
+
+9	1
+TTTTTTTTT
+
+9	2
+sssssssss
+sssssssss
+
+9	6
+TTTTTTTTT
+TTTTTTTTT
+TTTTTTTTT
+TTTTTTTTT
+TTTTTTTTT
+TTTTTTTTT
+
+9	6
+jjjjjjjjj
+jjjjjjjjj
+jjjjjjjjj
+jjjjjjjjj
+jjjjjjjjj
+jjjjjjjjj
+
+9	6
+vvvvvvvvv
+vvvvvvvvv
+vvvvvvvvv
+vvvvvvvvv
+vvvvvvvvv
+vvvvvvvvv
+
+9	7
+mmmmmmmmm
+mmmmmmmmm
+mmmmmmmmm
+mmmmmmmmm
+mmmmmmmmm
+mmmmmmmmm
+mmmmmmmmm
+
+10	1
+uuuuuuuuuu
+
+10	2
+kkkkkkkkkk
+kkkkkkkkkk
+
+10	5
+CCCCCCCCCC
+CCCCCCCCCC
+CCCCCCCCCC
+CCCCCCCCCC
+CCCCCCCCCC
+

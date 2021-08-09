@@ -1,0 +1,165 @@
+30
+
+1	3
+e
+e
+e
+
+1	4
+s
+s
+s
+s
+
+1	6
+Z
+Z
+Z
+Z
+Z
+Z
+
+3	2
+DDD
+DDD
+
+4	2
+qqqq
+qqqq
+
+4	3
+NNNN
+NNNN
+NNNN
+
+4	3
+zzzz
+zzzz
+zzzz
+
+5	2
+ttttt
+ttttt
+
+5	3
+BBBBB
+BBBBB
+BBBBB
+
+5	3
+lllll
+lllll
+lllll
+
+5	3
+ppppp
+ppppp
+ppppp
+
+6	1
+dddddd
+
+6	4
+xxxxxx
+xxxxxx
+xxxxxx
+xxxxxx
+
+6	5
+FFFFFF
+FFFFFF
+FFFFFF
+FFFFFF
+FFFFFF
+
+7	1
+OOOOOOO
+
+7	1
+ccccccc
+
+7	1
+zzzzzzz
+
+7	3
+AAAAAAA
+AAAAAAA
+AAAAAAA
+
+7	4
+AAAAAAA
+AAAAAAA
+AAAAAAA
+AAAAAAA
+
+7	5
+iiiiiii
+iiiiiii
+iiiiiii
+iiiiiii
+iiiiiii
+
+8	5
+JJJJJJJJ
+JJJJJJJJ
+JJJJJJJJ
+JJJJJJJJ
+JJJJJJJJ
+
+9	2
+BBBBBBBBB
+BBBBBBBBB
+
+9	2
+uuuuuuuuu
+uuuuuuuuu
+
+9	5
+hhhhhhhhh
+hhhhhhhhh
+hhhhhhhhh
+hhhhhhhhh
+hhhhhhhhh
+
+9	6
+EEEEEEEEE
+EEEEEEEEE
+EEEEEEEEE
+EEEEEEEEE
+EEEEEEEEE
+EEEEEEEEE
+
+10	2
+hhhhhhhhhh
+hhhhhhhhhh
+
+10	3
+DDDDDDDDDD
+DDDDDDDDDD
+DDDDDDDDDD
+
+10	5
+SSSSSSSSSS
+SSSSSSSSSS
+SSSSSSSSSS
+SSSSSSSSSS
+SSSSSSSSSS
+
+10	7
+ZZZZZZZZZZ
+ZZZZZZZZZZ
+ZZZZZZZZZZ
+ZZZZZZZZZZ
+ZZZZZZZZZZ
+ZZZZZZZZZZ
+ZZZZZZZZZZ
+
+10	7
+hhhhhhhhhh
+hhhhhhhhhh
+hhhhhhhhhh
+hhhhhhhhhh
+hhhhhhhhhh
+hhhhhhhhhh
+hhhhhhhhhh
+

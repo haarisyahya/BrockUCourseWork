@@ -1,0 +1,73 @@
+13
+
+1	2
+T
+T
+
+1	5
+s
+s
+s
+s
+s
+
+3	2
+WWW
+WWW
+
+3	2
+ccc
+ccc
+
+4	2
+ssss
+ssss
+
+5	7
+zzzzz
+zzzzz
+zzzzz
+zzzzz
+zzzzz
+zzzzz
+zzzzz
+
+6	1
+WWWWWW
+
+6	2
+FFFFFF
+FFFFFF
+
+6	4
+jjjjjj
+jjjjjj
+jjjjjj
+jjjjjj
+
+7	4
+rrrrrrr
+rrrrrrr
+rrrrrrr
+rrrrrrr
+
+8	1
+TTTTTTTT
+
+8	7
+JJJJJJJJ
+JJJJJJJJ
+JJJJJJJJ
+JJJJJJJJ
+JJJJJJJJ
+JJJJJJJJ
+JJJJJJJJ
+
+10	6
+zzzzzzzzzz
+zzzzzzzzzz
+zzzzzzzzzz
+zzzzzzzzzz
+zzzzzzzzzz
+zzzzzzzzzz
+
