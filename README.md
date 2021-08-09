@@ -8,4 +8,4 @@ Assignment 5 (1P03) - This assignment focused on subsorting, basically sorting b
 
 Assignment 1 (2P03) - This assignment focused on creating a Pool Queue, used to accommodate queues of people specifically for the "MacGuffin" games. Big-O time complexity analysis is also included. 
 
-Assignment 3 (2P03) - This assignment focused on implementing several sorting algorithms (Radix, Heap, Merge, etc.) and then compared their time complexities.
+Assignment 3 (2P03) - This assignment focused on implementing several sorting algorithms (Radix, Heap, Merge, etc.) and then compared their time complexities. Output and analysis is included.
