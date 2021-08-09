@@ -1,0 +1,36 @@
+package StringT;
+
+
+/* @author Haaris Yahya
+ * @version 1.0 (03/12/2021)       */
+
+
+public interface StringT {
+  
+  //Concatenates 2 strings, this.ConCat(S) 
+  public StringT ConCat(StringT S);
+  
+  //Returns a string from index 0 to but not including i. 
+  public StringT Before(int i) throws StringTException;
+  
+  //Returns a string from i to end.
+  public StringT After(int i) throws StringTException;
+  
+  //Returns the length of this.
+  public int Length();
+  
+  //Creates a deep clone of this.
+  public StringT Clone();
+  
+  //Returns the character at index i of this; 
+  public char CharAt(int i);
+  
+  //Returns a character array representation of this. 
+  public char[] ToArray();
+  
+  //Converts all the characters in this string to uppercase 
+  public StringT toUpper();
+  
+  //Returns the index within this string of the first occurence of the specified char
+  public int indexOf(char c);
+}

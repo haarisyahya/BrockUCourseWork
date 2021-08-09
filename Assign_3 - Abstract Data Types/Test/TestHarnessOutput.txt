@@ -1,0 +1,14 @@
+Empty string        : 
+String1             : Batman
+Clone               : StringT.MyStringT@2d6976fa
+Empty string length : 0
+String1 length      : 6
+String1 before(3)   : Bat
+String1 after(3)    : man
+IndexOf 'a' string1 : 1
+IndexOf 's' string1 : -1
+IndexOf 'n' string1 : 5
+Uppercase String1   : BATMAN
+String2             : Superman
+String3             :  
+String1+String2     : Batman Superman
